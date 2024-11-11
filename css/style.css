@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COUNTER */
+#counter {
+    margin: 0 auto;
+    width: fit-content;
+    padding: .2em .4em;
+}
+
+/* NUMBER TO COPY */
+
+.rand-num {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct-num {
+    margin-top: 16px;
+    display: flex;
+    gap: 10px;
+}
+
+.number {
+    border: 1px solid black;
+    padding: .3em;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* FORM */
+
+form {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .4em;
+}
+
+form input {
+    width: 100px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 0 4px;
+}
+
+button {
+    margin-top: 4px;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 4px 8px;
+    border-radius: 12px 0 12px 0;
+}
+
+/* RESULT */
+#result-div {
+    margin: 16px 0;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#result {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#result>div {
+    background-color: lightgreen;
+}
+
+/* GENERAL */
+.d-none {
+    display: none;
+}
+
+.checked {
+    border: 1px solid black;
+    padding: .3em;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
